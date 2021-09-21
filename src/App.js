@@ -54,7 +54,9 @@ function App() {
           setTableData(sortedData);
           setmapCountries(countries);
           setCountries(countries);
-        });
+          // setCountries(countries);
+
+        });  
     };
     getCountriesData();
   }, []);
