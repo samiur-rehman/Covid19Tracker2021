@@ -1,0 +1,47 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .infoBox:not(:last-child) {
+    margin-right: 1.2%;
+  }
+  .MuiCardContent-root:last-child{
+      padding-bottom: 5px !important;
+  }
+  .MuiCardContent-root {
+      padding-top: 5px !important;
+  }
+
+  .infoxBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .infobox--selected {
+    border-top: 10px solid #00ff40;
+  }
+  
+  .infoBox--red {
+    border-color: #cc1034;
+  }
+
+  @media ( max-width: 600px ) {
+    .infoBox {
+      margin: 1.2%;
+    }
+      
+    
+      
+      /* .infoBox:not(:last-child) {
+        margin-right: 1.2%;
+      } */
+      /* .MuiCardContent-root:last-child{
+          padding-bottom: 5px !important;
+      }
+      .MuiCardContent-root {
+          padding-top: 5px !important;
+      } */
+  }

@@ -1,0 +1,36 @@
+.map{
+    height: 420px;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 1.5%;
+    box-shadow: 0 0 8px -3px rgba(0, 0, 0, 0.5);
+}
+
+.tooltip_container{
+width: auto;
+height: auto;
+}
+.info_name_country {
+    margin-top: 0.2rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+  }
+.info_tooltip {
+    font-size: 16px;
+}
+
+.info-flag img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .info-flag {
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+  }

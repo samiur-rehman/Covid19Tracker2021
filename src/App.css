@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app{
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app__dropdown{
+  background-color: white;
+  box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.5);
+
+}
+.app__header{
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 1.2%;
+  justify-content: space-between;
+}
+
+.app__left{
+  flex: 0.9;
+}
+.app__stat{
+display: flex;
+justify-content: space-between;
+
+}
+
+@media ( max-width: 990px ) {
+  .app{
+    flex-direction: column;
+  }
+  .app{
+    margin: 2%;
+  }
+  .app__header{
+    margin-bottom: 2%;
+  }
+  .app__left{
+    margin-bottom: 1.5%;
+  }
+  
+}
+
+.app__right  h3{
+  margin: 10px 0px;
+  text-transform: capitalize;
+  padding-left: 7%;
+}
+.app__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__graph {
+  flex-grow: 1;
+}
+
+@media ( max-width: 600px ) {
+  .app__stat{
+    flex-direction: column;
+    justify-content: space-between;
+    
+    }
+    .app{
+      margin: 2%;
+    }
+    .app__header{
+      margin: 0 2%;
+    }
+.app__header >img{
+  width: 25vw;
+  height: 40px;
+} 
+.MuiOutlinedInput-input {
+  padding: 12.5px 25px !important
+}
+}
